@@ -1,4 +1,5 @@
 FROM scratch
+
 COPY . .
 
-CMD ["./main"]
+ENTRYPOINT ["./main"]
